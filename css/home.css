@@ -1,0 +1,151 @@
+/* Homepage CSS */
+
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.container img{
+    filter: brightness(85%);
+    height:100%;
+}
+  
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    width: 100%;
+} 
+
+.container h1{
+  color: white;
+  text-transform: uppercase;
+  font-size: 120px;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 5px;
+  font-weight: bolder;
+}
+
+.container h2{
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 5px;
+  color: white;
+  font-size: 40px;
+}
+
+/* Fade in text CSS */
+
+.fade-in {
+    animation: fadeIn ease 6s;
+    -webkit-animation: fadeIn ease 6s;
+    -moz-animation: fadeIn ease 6s;
+    -o-animation: fadeIn ease 6s;
+    -ms-animation: fadeIn ease 6s;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+}
+  
+@-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+}
+  
+@-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+}
+  
+@-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+}
+  
+@-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+}
+
+
+/* FOR MOBILE DISPLAY*/
+@media only screen and (max-width:934px){
+    body{
+        height:1000px;
+    }
+    /* NAVIGATION BAR*/
+
+    nav img{
+        height: 90px;
+    }
+    
+    .Breathing-web{
+        display: none;
+    }
+   
+    .Breathing-mob{
+        display: unset;
+    }
+    /*BODY*/
+
+    .container {
+        position: relative;
+        text-align: auto;
+        height: auto;
+        
+    }
+    
+    .container h1{
+        padding:5px;
+        font-size: 30px; 
+    }
+    
+    .container h2{
+        font-size: 20px;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .container img{
+        width: 210%;
+        height: 500px;
+        overflow-x: hidden;
+        position: relative;
+       right: 250px;
+    }
+  
+    main{
+        background-color:#F07C75;
+    }
+    body{
+        overflow-x: hidden;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+   
+   
+}
