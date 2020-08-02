@@ -1,0 +1,162 @@
+/* MEDITATION PAGE */
+main{
+  z-index: -1;
+}
+.banner {
+  display: flex;
+}
+
+.bn-right {
+  width: 50%;
+  margin: 40px;
+}
+
+.bn-right img {
+  height: 100%;
+  width: 100%;
+}
+.bn-left {
+  width: 50%;
+  text-align: center;
+  margin-top: 1rem;
+}
+.bn-left h1 {
+  color: #F07C75; 
+  padding:0;
+  margin-top: 30px;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+@media screen and (max-width: 768px){
+  .paragraph{
+      
+      font-size: 12px;
+      text-align: none;
+  }
+} 
+
+section {
+  padding: 2rem;
+}
+
+.btn {
+  margin: 0 10px;
+}
+
+.heading-light {
+  font-size: 40px;
+  color: #8EC4D6;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+.heading-dark {
+  font-size: 40px;
+  color: #F07C75;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+
+.section-dark {
+  background: #ADDCA9;
+}
+.paragraph {
+  padding: 60px;
+  font-size: 2rem;
+  text-align: center; 
+  color: #333333; 
+}
+.p-light {
+  color: white;
+}
+
+
+/* FOR MOBILE DISPLAY*/
+@media only screen and (max-width:934px){
+  /*FOOTER*/
+
+  footer{
+      height: auto;
+  }
+  
+  .footer-content{
+      height:auto;
+      flex-direction: column; 
+  }
+
+  .contact-form{
+      padding-bottom: 90px;
+  }
+  
+  .footer-bottom{
+      letter-spacing: none;
+  }
+
+  footer img{
+      height: 130px;
+      margin-left: -10px;
+      
+  }
+
+  .footer-bottom{
+      font-size: smaller;
+      height: 60px;
+      letter-spacing: none;
+     
+  }
+  /*NEWSLETTER*/
+  .newsletter{
+      height: 450px;
+       width: auto;
+   }
+
+   .newsletter h4{
+       padding: 20px;
+       
+   }
+
+   .dash{
+      display: none;
+  }
+  .register {
+      margin: auto;
+  }
+  /* NAVIGATION BAR*/
+
+  nav img{
+      height: 90px;
+  }
+  
+  .Breathing-web{
+      display: none;
+  }
+ 
+  .Breathing-mob{
+      display: unset;
+  }
+
+  .banner{
+    flex-direction: column;
+  }
+  .bn-left{
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .bn-left p{
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  .bn-right img{
+    width: 400px;
+    height: 300px;
+    margin-left: -70px;
+  }
+ 
+}
